@@ -85,7 +85,7 @@ ul {
     background-size: 200px;
 }
 
-/*顶部条*/
+/*顶部栏 top-bar*/
 .top-bar ul {
     height: 45px;
     line-height: 45px;
@@ -124,27 +124,27 @@ ul {
     background: #f63515;
 }
 
-/*固定条*/
-.fix-bar {
+/*搜索栏 search-bar*/
+.search-bar {
     position: fixed;
     overflow: hidden;
     height: 44px;
     line-height: 44px;
 }
 
-.fix-bar .left,
-.fix-bar .right {
+.search-bar .left,
+.search-bar .right {
     position: absolute;
     width: 40px;
     height: 100%;
     top: 0;
 }
 
-.fix-bar .left {
+.search-bar .left {
     left: 0;
 }
 
-.fix-bar .left::before {
+.search-bar .left::before {
     content: "";
     display: block;
     width: 20px;
@@ -154,13 +154,13 @@ ul {
     background-size: cover;
 }
 
-.fix-bar .right {
+.search-bar .right {
     right: 0;
     text-align: center;
     color: #fff;
 }
 
-.fix-bar .search-box {
+.search-bar .search-box {
     position: relative;
     background: #fff;
     height: 30px;
@@ -169,7 +169,7 @@ ul {
     border-radius: 15px;
 }
 
-.fix-bar .search-box .icon-jd {
+.search-bar .search-box .icon-jd {
     position: absolute;
     top: 8px;
     left: 12px;
@@ -179,7 +179,7 @@ ul {
     background-size: cover;
 }
 
-.fix-bar .search-box .icon-jd::after {
+.search-bar .search-box .icon-jd::after {
     position: absolute;
     right: -8px;
     top: 0;
@@ -190,7 +190,7 @@ ul {
     background-color: #ccc;
 }
 
-.fix-bar .search-box .icon-search {
+.search-bar .search-box .icon-search {
     position: absolute;
     top: 8px;
     left: 45px;
@@ -200,7 +200,7 @@ ul {
     background-size: 200px;
 }
 
-.fix-bar .search-box .search-input {
+.search-bar .search-box .search-input {
     float: left;
     width: 95%;
     height: 30px;
@@ -209,19 +209,19 @@ ul {
     font-size: 12px;
 }
 
-.fix-bar .search-box .search-input .keyword {
+.search-bar .search-box .search-input .keyword {
     width: 100%;
     border: none;
     padding-left: 5px;
     vertical-align: middle;
 }
 
-/*广告条*/
+/*轮播图 banner*/
 .main-container .banner img {
     width: 100%;
 }
 
-/*品牌日*/
+/*品牌栏 brand*/
 .main-container .brand-item {
     float: left;
     width: 33.33%;
@@ -231,7 +231,7 @@ ul {
     width: 100%;
 }
 
-/*导航条*/
+/*导航栏 nav*/
 .main-container .nav {
     margin: 10px 0;
 }
@@ -251,7 +251,7 @@ ul {
     display: block;
 }
 
-/*新闻条*/
+/*消息栏 news*/
 .main-container .news-item {
     float: left;
 }
